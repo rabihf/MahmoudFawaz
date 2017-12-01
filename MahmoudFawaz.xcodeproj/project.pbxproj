@@ -12,6 +12,7 @@
 		61E0D9321FD19355005E7404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E0D9301FD19355005E7404 /* Main.storyboard */; };
 		61E0D9341FD19355005E7404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E0D9331FD19355005E7404 /* Assets.xcassets */; };
 		61E0D9371FD19355005E7404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E0D9351FD19355005E7404 /* LaunchScreen.storyboard */; };
+		61E0D93F1FD19B2B005E7404 /* icons8-sun-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 61E0D93E1FD19B2B005E7404 /* icons8-sun-48.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		61E0D9331FD19355005E7404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61E0D9361FD19355005E7404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61E0D9381FD19355005E7404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E0D93E1FD19B2B005E7404 /* icons8-sun-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-sun-48.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				61E0D92B1FD19355005E7404 /* MahmoudFawaz */,
 				61E0D92A1FD19355005E7404 /* Products */,
+				61E0D93E1FD19B2B005E7404 /* icons8-sun-48.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E0D93F1FD19B2B005E7404 /* icons8-sun-48.png in Resources */,
 				61E0D9371FD19355005E7404 /* LaunchScreen.storyboard in Resources */,
 				61E0D9341FD19355005E7404 /* Assets.xcassets in Resources */,
 				61E0D9321FD19355005E7404 /* Main.storyboard in Resources */,
@@ -277,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB3L92PXLH;
 				INFOPLIST_FILE = MahmoudFawaz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lb.edu.aub.MahmoudFawaz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB3L92PXLH;
 				INFOPLIST_FILE = MahmoudFawaz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lb.edu.aub.MahmoudFawaz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
